@@ -1,0 +1,29 @@
+while True:
+    print(' .......................................................Калькулятор................................')
+    num_1 = float(input('ввод первого числа:'))
+    num_2 = float(input('ввод второго числа:'))
+    operation = int(input('выберите операцию:\n1+ +\n2 -\n3 *\n4 /\n5 %\n'))
+    if operation == 1:
+        one = num_1 + num_2
+        two = ''
+        fry = two
+
+    if operation == 2:
+        one = num_1 - num_2
+        two = ''
+        fry = two
+    if operation == 3:
+        one = num_1 * num_2
+        two = ''
+        fry = two
+
+    if operation == 4:
+        one = num_1 / num_2
+        two = ''
+        fry = two
+    if operation == 5:
+        one = num_1 % num_2
+        two = ''
+        fry = two
+
+    print('=', fry, one)
